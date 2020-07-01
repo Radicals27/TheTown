@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Agent Visualiser\GAgentVisual.cs" />
-    <Compile Include="Assets\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\GOAP\GAction.cs" />
     <Compile Include="Assets\GOAP\GAgent.cs" />
     <Compile Include="Assets\GOAP\GInventory.cs" />
@@ -71,8 +70,10 @@
     <Compile Include="Assets\GOAP\GStateMonitor.cs" />
     <Compile Include="Assets\GOAP\GWorld.cs" />
     <Compile Include="Assets\GOAP\WorldStates.cs" />
+    <Compile Include="Assets\Models\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Scripts\CleanFloor.cs" />
+    <Compile Include="Assets\Scripts\ConversationHandler.cs" />
     <Compile Include="Assets\Scripts\Doctor.cs" />
     <Compile Include="Assets\Scripts\Drink.cs" />
     <Compile Include="Assets\Scripts\Drive.cs" />

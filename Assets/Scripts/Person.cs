@@ -9,6 +9,7 @@ public class Person : GAgent
     private float hydration = 100.00f;
     private float energy = 100.00f;   //Used for sleep (0 = go to bed)
 
+    public bool isTalking = false;   //When they enter a conversation, this is set to true
     public int MyMoney { get; set; } = 100;  //Does this need to be public or can it be private?
 
     GameObject myBed;
@@ -17,12 +18,15 @@ public class Person : GAgent
     Animator personAnimator;
     NavMeshAgent myNavMeshAgent;
 
+    public ConversationHandler myConversation;
+
     new void Start()
     {
         thisPerson = GetComponent<Person>();
         personAnimator = GetComponent<Animator>();
         myNavMeshAgent = GetComponent<NavMeshAgent>();
         speechBubble = GetComponent<SpeechBubble>();
+        myConversation = GetComponent<ConversationHandler>();
 
         myBed = FindClosestObject("Bed");
         if (myBed != null)
@@ -50,19 +54,10 @@ public class Person : GAgent
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "NPC_Collider")
+        if (other.gameObject.name == "NPC_Collider" && !thisPerson.isTalking && !other.GetComponentInParent<Person>().isTalking)
         {
-            myNavMeshAgent.isStopped = true;
-            StartCoroutine(Test ());
+            myConversation.ManageConversation(myNavMeshAgent, other.gameObject);
         }
-    }
-
-    IEnumerator Test()
-    {
-        speechBubble.Speak("Hello!");
-        yield return new WaitForSeconds(5);
-        speechBubble.Speak("Bye!");
-        myNavMeshAgent.isStopped = false;
     }
 
     private void Entropy()
