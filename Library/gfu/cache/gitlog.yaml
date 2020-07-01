@@ -1,0 +1,1757 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-06-24T08:31:43.228+10:00
+  initializedAtString: 2020-06-24T08:25:15.684+10:00
+  log:
+  - commitID: d9397257eb51deab57047ec49992e3784631fd5c
+    mergeA: 
+    mergeB: 
+    authorName: Radicals27
+    authorEmail: Farringt09!
+    commitEmail: Farringt09!
+    commitName: Radicals27
+    summary: First commit, eating working.
+    description: Got eating working, with 1 sec depreciation for hunger.
+    timeString: 2020-06-24T08:27:22.000+10:00
+    commitTimeString: 2020-06-24T08:27:22.000+10:00
+    changes:
+    - path: Assets\Agent Visualiser.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Agent Visualiser.meta
+      projectPath: Assets\Agent Visualiser.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Agent Visualiser\GAgentVisual.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Agent Visualiser\GAgentVisual.cs
+      projectPath: Assets\Agent Visualiser\GAgentVisual.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Agent Visualiser\GAgentVisual.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Agent Visualiser\GAgentVisual.cs.meta
+      projectPath: Assets\Agent Visualiser\GAgentVisual.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital.meta
+      projectPath: Assets\BasicWorkingHospital.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital.unity
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital.unity
+      projectPath: Assets\BasicWorkingHospital.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital.unity.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital.unity.meta
+      projectPath: Assets\BasicWorkingHospital.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital\NavMesh-Hospital.asset
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital\NavMesh-Hospital.asset
+      projectPath: Assets\BasicWorkingHospital\NavMesh-Hospital.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital\NavMesh-Hospital.asset.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital\NavMesh-Hospital.asset.meta
+      projectPath: Assets\BasicWorkingHospital\NavMesh-Hospital.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital\NavMesh.asset
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital\NavMesh.asset
+      projectPath: Assets\BasicWorkingHospital\NavMesh.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\BasicWorkingHospital\NavMesh.asset.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\BasicWorkingHospital\NavMesh.asset.meta
+      projectPath: Assets\BasicWorkingHospital\NavMesh.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian.meta
+      projectPath: Assets\Brian.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Brian.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Brian.fbx
+      projectPath: Assets\Brian\Brian.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Brian.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Brian.fbx.meta
+      projectPath: Assets\Brian\Brian.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Diffuse.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Diffuse.png
+      projectPath: Assets\Brian\Ch01_1001_Diffuse.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Diffuse.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Diffuse.png.meta
+      projectPath: Assets\Brian\Ch01_1001_Diffuse.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Glossiness.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Glossiness.png
+      projectPath: Assets\Brian\Ch01_1001_Glossiness.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Glossiness.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Glossiness.png.meta
+      projectPath: Assets\Brian\Ch01_1001_Glossiness.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Normal.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Normal.png
+      projectPath: Assets\Brian\Ch01_1001_Normal.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Normal.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Normal.png.meta
+      projectPath: Assets\Brian\Ch01_1001_Normal.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Specular.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Specular.png
+      projectPath: Assets\Brian\Ch01_1001_Specular.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Brian\Ch01_1001_Specular.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Brian\Ch01_1001_Specular.png.meta
+      projectPath: Assets\Brian\Ch01_1001_Specular.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Cube.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Cube.prefab
+      projectPath: Assets\Cube.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Cube.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Cube.prefab.meta
+      projectPath: Assets\Cube.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Editor.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Editor.meta
+      projectPath: Assets\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Editor\GAgentEditor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Editor\GAgentEditor.cs
+      projectPath: Assets\Editor\GAgentEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Editor\GAgentEditor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Editor\GAgentEditor.cs.meta
+      projectPath: Assets\Editor\GAgentEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP.meta
+      projectPath: Assets\GOAP.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GAction.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GAction.cs
+      projectPath: Assets\GOAP\GAction.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GAction.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GAction.cs.meta
+      projectPath: Assets\GOAP\GAction.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GAgent.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GAgent.cs
+      projectPath: Assets\GOAP\GAgent.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GAgent.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GAgent.cs.meta
+      projectPath: Assets\GOAP\GAgent.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GInventory.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GInventory.cs
+      projectPath: Assets\GOAP\GInventory.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GInventory.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GInventory.cs.meta
+      projectPath: Assets\GOAP\GInventory.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GPlanner.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GPlanner.cs
+      projectPath: Assets\GOAP\GPlanner.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GPlanner.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GPlanner.cs.meta
+      projectPath: Assets\GOAP\GPlanner.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GStateMonitor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GStateMonitor.cs
+      projectPath: Assets\GOAP\GStateMonitor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GStateMonitor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GStateMonitor.cs.meta
+      projectPath: Assets\GOAP\GStateMonitor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GWorld.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GWorld.cs
+      projectPath: Assets\GOAP\GWorld.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\GWorld.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\GWorld.cs.meta
+      projectPath: Assets\GOAP\GWorld.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\WorldStates.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\WorldStates.cs
+      projectPath: Assets\GOAP\WorldStates.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\GOAP\WorldStates.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\GOAP\WorldStates.cs.meta
+      projectPath: Assets\GOAP\WorldStates.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\House_Wall.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\House_Wall.mat
+      projectPath: Assets\House_Wall.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\House_Wall.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\House_Wall.mat.meta
+      projectPath: Assets\House_Wall.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents.meta
+      projectPath: Assets\NavMeshComponents.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Ch01_1001_Normal.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Ch01_1001_Normal.png
+      projectPath: Assets\NavMeshComponents\Ch01_1001_Normal.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Ch01_1001_Normal.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Ch01_1001_Normal.png.meta
+      projectPath: Assets\NavMeshComponents\Ch01_1001_Normal.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor.meta
+      projectPath: Assets\NavMeshComponents\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshAssetManager.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsEditor.asmdef.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      projectPath: Assets\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts.meta
+      projectPath: Assets\NavMeshComponents\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshComponents.asmdef.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      projectPath: Assets\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Patient.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Patient.prefab
+      projectPath: Assets\Patient.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Patient.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Patient.prefab.meta
+      projectPath: Assets\Patient.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Places-trash-empty-icon.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Places-trash-empty-icon.png
+      projectPath: Assets\Places-trash-empty-icon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Places-trash-empty-icon.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Places-trash-empty-icon.png.meta
+      projectPath: Assets\Places-trash-empty-icon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab.meta
+      projectPath: Assets\Prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bamboo.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Bamboo.fbx
+      projectPath: Assets\Prefab\Bamboo.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bamboo.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Bamboo.fbx.meta
+      projectPath: Assets\Prefab\Bamboo.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bamboo.psd
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Bamboo.psd
+      projectPath: Assets\Prefab\Bamboo.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Bamboo.psd.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Bamboo.psd.meta
+      projectPath: Assets\Prefab\Bamboo.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Cubicle.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Cubicle.prefab
+      projectPath: Assets\Prefab\Cubicle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Cubicle.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Cubicle.prefab.meta
+      projectPath: Assets\Prefab\Cubicle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Doctor.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Doctor.prefab
+      projectPath: Assets\Prefab\Doctor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Doctor.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Doctor.prefab.meta
+      projectPath: Assets\Prefab\Doctor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Janitor.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Janitor.prefab
+      projectPath: Assets\Prefab\Janitor.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Janitor.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Janitor.prefab.meta
+      projectPath: Assets\Prefab\Janitor.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials.meta
+      projectPath: Assets\Prefab\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials\Bamboo.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials\Bamboo.mat
+      projectPath: Assets\Prefab\Materials\Bamboo.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials\Bamboo.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials\Bamboo.mat.meta
+      projectPath: Assets\Prefab\Materials\Bamboo.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2.meta
+      projectPath: Assets\Prefab\Materials2.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Baby Blue.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Baby Blue.mat
+      projectPath: Assets\Prefab\Materials2\Baby Blue.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Baby Blue.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Baby Blue.mat.meta
+      projectPath: Assets\Prefab\Materials2\Baby Blue.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Black.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Black.mat
+      projectPath: Assets\Prefab\Materials2\Black.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Black.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Black.mat.meta
+      projectPath: Assets\Prefab\Materials2\Black.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Dark Brown.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Dark Brown.mat
+      projectPath: Assets\Prefab\Materials2\Dark Brown.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Dark Brown.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Dark Brown.mat.meta
+      projectPath: Assets\Prefab\Materials2\Dark Brown.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Dark Pink.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Dark Pink.mat
+      projectPath: Assets\Prefab\Materials2\Dark Pink.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Dark Pink.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Dark Pink.mat.meta
+      projectPath: Assets\Prefab\Materials2\Dark Pink.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Denim.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Denim.mat
+      projectPath: Assets\Prefab\Materials2\Denim.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Denim.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Denim.mat.meta
+      projectPath: Assets\Prefab\Materials2\Denim.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Gold.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Gold.mat
+      projectPath: Assets\Prefab\Materials2\Gold.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Gold.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Gold.mat.meta
+      projectPath: Assets\Prefab\Materials2\Gold.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Green.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Green.mat
+      projectPath: Assets\Prefab\Materials2\Green.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Green.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Green.mat.meta
+      projectPath: Assets\Prefab\Materials2\Green.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Grey.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Grey.mat
+      projectPath: Assets\Prefab\Materials2\Grey.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Grey.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Grey.mat.meta
+      projectPath: Assets\Prefab\Materials2\Grey.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Light Brown.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Light Brown.mat
+      projectPath: Assets\Prefab\Materials2\Light Brown.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Light Brown.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Light Brown.mat.meta
+      projectPath: Assets\Prefab\Materials2\Light Brown.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Light Pink.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Light Pink.mat
+      projectPath: Assets\Prefab\Materials2\Light Pink.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Light Pink.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Light Pink.mat.meta
+      projectPath: Assets\Prefab\Materials2\Light Pink.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials.meta
+      projectPath: Assets\Prefab\Materials2\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\blue.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\blue.mat
+      projectPath: Assets\Prefab\Materials2\Materials\blue.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\blue.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\blue.mat.meta
+      projectPath: Assets\Prefab\Materials2\Materials\blue.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\largeBrick.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\largeBrick.mat
+      projectPath: Assets\Prefab\Materials2\Materials\largeBrick.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\largeBrick.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\largeBrick.mat.meta
+      projectPath: Assets\Prefab\Materials2\Materials\largeBrick.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\staff.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\staff.mat
+      projectPath: Assets\Prefab\Materials2\Materials\staff.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\staff.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\staff.mat.meta
+      projectPath: Assets\Prefab\Materials2\Materials\staff.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\tiles.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\tiles.mat
+      projectPath: Assets\Prefab\Materials2\Materials\tiles.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Materials\tiles.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Materials\tiles.mat.meta
+      projectPath: Assets\Prefab\Materials2\Materials\tiles.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Red.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Red.mat
+      projectPath: Assets\Prefab\Materials2\Red.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Red.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Red.mat.meta
+      projectPath: Assets\Prefab\Materials2\Red.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Silver.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Silver.mat
+      projectPath: Assets\Prefab\Materials2\Silver.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\Silver.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\Silver.mat.meta
+      projectPath: Assets\Prefab\Materials2\Silver.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\White.mat
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\White.mat
+      projectPath: Assets\Prefab\Materials2\White.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\White.mat.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\White.mat.meta
+      projectPath: Assets\Prefab\Materials2\White.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\largeBrick.tga
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\largeBrick.tga
+      projectPath: Assets\Prefab\Materials2\largeBrick.tga
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\largeBrick.tga.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\largeBrick.tga.meta
+      projectPath: Assets\Prefab\Materials2\largeBrick.tga.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\staff.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\staff.png
+      projectPath: Assets\Prefab\Materials2\staff.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\staff.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\staff.png.meta
+      projectPath: Assets\Prefab\Materials2\staff.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\tiles.tif
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\tiles.tif
+      projectPath: Assets\Prefab\Materials2\tiles.tif
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\tiles.tif.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\tiles.tif.meta
+      projectPath: Assets\Prefab\Materials2\tiles.tif.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\wait.png
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\wait.png
+      projectPath: Assets\Prefab\Materials2\wait.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Materials2\wait.png.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Materials2\wait.png.meta
+      projectPath: Assets\Prefab\Materials2\wait.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\NewCubicle.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\NewCubicle.prefab
+      projectPath: Assets\Prefab\NewCubicle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\NewCubicle.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\NewCubicle.prefab.meta
+      projectPath: Assets\Prefab\NewCubicle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\NewToilet.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\NewToilet.prefab
+      projectPath: Assets\Prefab\NewToilet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\NewToilet.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\NewToilet.prefab.meta
+      projectPath: Assets\Prefab\NewToilet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Nurse.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Nurse.prefab
+      projectPath: Assets\Prefab\Nurse.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Nurse.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Nurse.prefab.meta
+      projectPath: Assets\Prefab\Nurse.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Office.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Office.prefab
+      projectPath: Assets\Prefab\Office.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Office.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Office.prefab.meta
+      projectPath: Assets\Prefab\Office.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Patient.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Patient.prefab
+      projectPath: Assets\Prefab\Patient.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Patient.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Patient.prefab.meta
+      projectPath: Assets\Prefab\Patient.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\ReceptionDesk.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\ReceptionDesk.prefab
+      projectPath: Assets\Prefab\ReceptionDesk.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\ReceptionDesk.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\ReceptionDesk.prefab.meta
+      projectPath: Assets\Prefab\ReceptionDesk.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Toilet.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Toilet.prefab
+      projectPath: Assets\Prefab\Toilet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\Toilet.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\Toilet.prefab.meta
+      projectPath: Assets\Prefab\Toilet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\broom.obj
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\broom.obj
+      projectPath: Assets\Prefab\broom.obj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\broom.obj.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\broom.obj.meta
+      projectPath: Assets\Prefab\broom.obj.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\puddle.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\puddle.fbx
+      projectPath: Assets\Prefab\puddle.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\puddle.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\puddle.fbx.meta
+      projectPath: Assets\Prefab\puddle.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\puddle.prefab
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\puddle.prefab
+      projectPath: Assets\Prefab\puddle.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefab\puddle.prefab.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Prefab\puddle.prefab.meta
+      projectPath: Assets\Prefab\puddle.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts.meta
+      projectPath: Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CleanFloor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\CleanFloor.cs
+      projectPath: Assets\Scripts\CleanFloor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\CleanFloor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\CleanFloor.cs.meta
+      projectPath: Assets\Scripts\CleanFloor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Doctor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Doctor.cs
+      projectPath: Assets\Scripts\Doctor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Doctor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Doctor.cs.meta
+      projectPath: Assets\Scripts\Doctor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Drive.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Drive.cs
+      projectPath: Assets\Scripts\Drive.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Drive.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Drive.cs.meta
+      projectPath: Assets\Scripts\Drive.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Eat.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Eat.cs
+      projectPath: Assets\Scripts\Eat.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Eat.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Eat.cs.meta
+      projectPath: Assets\Scripts\Eat.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GetPatient.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GetPatient.cs
+      projectPath: Assets\Scripts\GetPatient.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GetPatient.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GetPatient.cs.meta
+      projectPath: Assets\Scripts\GetPatient.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GetTreated.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GetTreated.cs
+      projectPath: Assets\Scripts\GetTreated.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GetTreated.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GetTreated.cs.meta
+      projectPath: Assets\Scripts\GetTreated.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoHome.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoHome.cs
+      projectPath: Assets\Scripts\GoHome.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoHome.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoHome.cs.meta
+      projectPath: Assets\Scripts\GoHome.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToCubicle.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToCubicle.cs
+      projectPath: Assets\Scripts\GoToCubicle.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToCubicle.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToCubicle.cs.meta
+      projectPath: Assets\Scripts\GoToCubicle.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToHospital.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToHospital.cs
+      projectPath: Assets\Scripts\GoToHospital.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToHospital.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToHospital.cs.meta
+      projectPath: Assets\Scripts\GoToHospital.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToWaitingRoom.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToWaitingRoom.cs
+      projectPath: Assets\Scripts\GoToWaitingRoom.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\GoToWaitingRoom.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\GoToWaitingRoom.cs.meta
+      projectPath: Assets\Scripts\GoToWaitingRoom.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Janitor.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Janitor.cs
+      projectPath: Assets\Scripts\Janitor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Janitor.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Janitor.cs.meta
+      projectPath: Assets\Scripts\Janitor.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Nurse.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Nurse.cs
+      projectPath: Assets\Scripts\Nurse.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Nurse.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Nurse.cs.meta
+      projectPath: Assets\Scripts\Nurse.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Patient.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Patient.cs
+      projectPath: Assets\Scripts\Patient.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Patient.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Patient.cs.meta
+      projectPath: Assets\Scripts\Patient.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Person.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Person.cs
+      projectPath: Assets\Scripts\Person.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Person.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Person.cs.meta
+      projectPath: Assets\Scripts\Person.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Register.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Register.cs
+      projectPath: Assets\Scripts\Register.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Register.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Register.cs.meta
+      projectPath: Assets\Scripts\Register.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Research.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Research.cs
+      projectPath: Assets\Scripts\Research.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Research.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Research.cs.meta
+      projectPath: Assets\Scripts\Research.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Resource.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Resource.cs
+      projectPath: Assets\Scripts\Resource.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Resource.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Resource.cs.meta
+      projectPath: Assets\Scripts\Resource.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ResourceData.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\ResourceData.cs
+      projectPath: Assets\Scripts\ResourceData.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\ResourceData.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\ResourceData.cs.meta
+      projectPath: Assets\Scripts\ResourceData.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rest.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Rest.cs
+      projectPath: Assets\Scripts\Rest.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Rest.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Rest.cs.meta
+      projectPath: Assets\Scripts\Rest.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawn.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Spawn.cs
+      projectPath: Assets\Scripts\Spawn.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Spawn.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\Spawn.cs.meta
+      projectPath: Assets\Scripts\Spawn.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\UpdateWorld.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\UpdateWorld.cs
+      projectPath: Assets\Scripts\UpdateWorld.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\UpdateWorld.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\UpdateWorld.cs.meta
+      projectPath: Assets\Scripts\UpdateWorld.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\UseToilet.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\UseToilet.cs
+      projectPath: Assets\Scripts\UseToilet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\UseToilet.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\UseToilet.cs.meta
+      projectPath: Assets\Scripts\UseToilet.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WInterface.cs
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\WInterface.cs
+      projectPath: Assets\Scripts\WInterface.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WInterface.cs.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Scripts\WInterface.cs.meta
+      projectPath: Assets\Scripts\WInterface.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Town.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Town.meta
+      projectPath: Assets\Town.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Town.unity
+      fullPath: C:\Users\Radicals\TheTown\Assets\Town.unity
+      projectPath: Assets\Town.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Town.unity.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Town.unity.meta
+      projectPath: Assets\Town.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Town\NavMesh-Plane.asset
+      fullPath: C:\Users\Radicals\TheTown\Assets\Town\NavMesh-Plane.asset
+      projectPath: Assets\Town\NavMesh-Plane.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Town\NavMesh-Plane.asset.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\Town\NavMesh-Plane.asset.meta
+      projectPath: Assets\Town\NavMesh-Plane.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\cubiclerd.asset
+      fullPath: C:\Users\Radicals\TheTown\Assets\cubiclerd.asset
+      projectPath: Assets\cubiclerd.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\cubiclerd.asset.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\cubiclerd.asset.meta
+      projectPath: Assets\cubiclerd.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated.meta
+      projectPath: Assets\furniturekit_updated.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models.meta
+      projectPath: Assets\furniturekit_updated\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\chairDesk.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\chairDesk.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\chairDesk.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\chairDesk.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\chairDesk.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\chairDesk.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\computerKeyboard.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\computerKeyboard.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\computerKeyboard.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\computerKeyboard.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\computerKeyboard.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\computerKeyboard.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\computerScreen.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\computerScreen.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\computerScreen.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\computerScreen.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\computerScreen.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\computerScreen.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\deskCorner.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\deskCorner.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\deskCorner.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\deskCorner.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\deskCorner.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\deskCorner.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\paneling.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\paneling.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\paneling.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\paneling.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\paneling.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\paneling.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\toilet.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\toilet.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\toilet.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\toilet.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\toilet.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\toilet.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\wall.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\wall.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\wall.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\wall.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\wall.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\wall.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\wallDoorway.fbx
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\wallDoorway.fbx
+      projectPath: Assets\furniturekit_updated\Models\FBX format\wallDoorway.fbx
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\furniturekit_updated\Models\FBX format\wallDoorway.fbx.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\furniturekit_updated\Models\FBX
+        format\wallDoorway.fbx.meta
+      projectPath: Assets\furniturekit_updated\Models\FBX format\wallDoorway.fbx.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\toiletrd.asset
+      fullPath: C:\Users\Radicals\TheTown\Assets\toiletrd.asset
+      projectPath: Assets\toiletrd.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\toiletrd.asset.meta
+      fullPath: C:\Users\Radicals\TheTown\Assets\toiletrd.asset.meta
+      projectPath: Assets\toiletrd.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b9897f8f9387090b87116102f9b335f01f90d47f
+    mergeA: 
+    mergeB: 
+    authorName: Radicals27
+    authorEmail: Farringt09!
+    commitEmail: Farringt09!
+    commitName: Radicals27
+    summary: Initial commit
+    description: 
+    timeString: 2020-06-24T08:25:15.000+10:00
+    commitTimeString: 2020-06-24T08:25:15.000+10:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Radicals\TheTown\.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\Radicals\TheTown\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\.gitignore
+      fullPath: C:\Users\Radicals\TheTown\Assets\.gitignore
+      projectPath: Assets\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

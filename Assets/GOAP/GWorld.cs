@@ -45,20 +45,22 @@ public sealed class GWorld
 {
     private static readonly GWorld instance = new GWorld();
     private static WorldStates world;
-    private static ResourceQueue patients;
+    private static ResourceQueue people;
     private static ResourceQueue cubicles;
     private static ResourceQueue offices;
     private static ResourceQueue toilets;
     private static ResourceQueue puddles;
     private static ResourceQueue foods;
+    private static ResourceQueue waters;
+    private static ResourceQueue seats;
     private static Dictionary<string, ResourceQueue> resources = new Dictionary<string, ResourceQueue>();
 
     static GWorld()
     {
         world = new WorldStates();
 
-        patients = new ResourceQueue("","",world);
-        resources.Add("patients", patients);
+        people = new ResourceQueue("","",world);
+        resources.Add("people", people);
 
         cubicles = new ResourceQueue("Cubicle", "FreeCubicle", world);
         resources.Add("cubicles", cubicles);
@@ -74,6 +76,12 @@ public sealed class GWorld
 
         foods = new ResourceQueue("Food", "FreeFood", world);
         resources.Add("foods", foods);
+
+        waters = new ResourceQueue("Water", "FreeWater", world);
+        resources.Add("waters", waters);
+
+        seats = new ResourceQueue("Seat", "FreeSeat", world);
+        resources.Add("seats", seats);
 
         //Time.timeScale = 5;    //Speeds up time
     }

@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class GInventory
 {
-    public List<GameObject> items = new List<GameObject>();
+    public List<GameObject> items = new List<GameObject>();     //A list called "items" which is made up of game Objects
 
+    //Adds a game object to "items"
     public void AddItem(GameObject i)
     {
         items.Add(i);
     }
 
+    //returns a gameobject matching a given tag, from 'items'
     public GameObject FindItemWithTag(string tag)
     {
         foreach(GameObject i in items)
@@ -23,6 +25,7 @@ public class GInventory
         return null;
     }
 
+    //Removes a given game object from 'items'
     public void RemoveItem(GameObject i)
     {
         int indexToRemove = -1;

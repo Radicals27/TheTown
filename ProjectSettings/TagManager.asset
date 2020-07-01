@@ -14,6 +14,14 @@ TagManager:
   - Toilet
   - Puddle
   - Food
+  - Water
+  - Seat
+  - Conversation
+  - GroceryStore
+  - Pallet
+  - Shelf
+  - Bed
+  - NPC
   layers:
   - Default
   - TransparentFX

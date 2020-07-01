@@ -10,6 +10,7 @@ public class Node
     public Dictionary<string, int> state;
     public GAction action;
 
+    //Create a node, given all world states
     public Node(Node parent, float cost, Dictionary<string, int> allstates, GAction action)
     {
         this.parent = parent;
@@ -18,6 +19,7 @@ public class Node
         this.action = action;
     }
 
+    //Create a node, given all world states AND any passed belief states
     public Node(Node parent, float cost, Dictionary<string, int> allstates, Dictionary<string, int> beliefStates, GAction action)
     {
         this.parent = parent;
@@ -33,8 +35,10 @@ public class Node
 
 public class GPlanner
 {
+    //Returns a Queue object containing GActions, called "plan" and requires a list of GActions, the goal and required beliefstates
    public Queue<GAction> plan(List<GAction> actions, Dictionary<string, int>goal, WorldStates beliefStates)
-    {
+   {
+        //Find out which actions are actually usable in this plan, filter out those that can't
         List<GAction> usableActions = new List<GAction>();
         foreach(GAction a in actions)
         {
@@ -42,9 +46,13 @@ public class GPlanner
                 usableActions.Add(a);
         }
 
+        //A list of all nodes (or 'leaves')
         List<Node> leaves = new List<Node>();
+
+        //First leaf in plan has null/no parent, 0 cost and ALL world states available
         Node start = new Node(null, 0, GWorld.Instance.GetWorld().GetStates(), beliefStates.GetStates(), null);
 
+        //If the graph is successfully built, success = 1
         bool success = BuildGraph(start, leaves, usableActions, goal);
 
         if(!success)
