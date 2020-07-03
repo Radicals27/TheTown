@@ -14,17 +14,20 @@ public class Eat : GAction
         speechBubble = GetComponent<SpeechBubble>();
     }
 
+    //NEED to redo this class - find closest food item that has QUANTITY > 0!
     public override bool PrePerform()
     {
-        target = FindClosestObject("Food");
-            
+        target = FindClosestFood();
+
         if (target == null)
+        {
+            speechBubble.Speak("******No food!*****");
             return false;
+        }
         else
             thisFood = target.GetComponent<Obj_Food>();
 
         inventory.AddItem(target);
-        GWorld.Instance.GetWorld().ModifyState("FreeFood", -1);
 
         speechBubble.Speak("I'm hungry!");
 
@@ -33,11 +36,11 @@ public class Eat : GAction
 
     public override bool PostPerform()
     {
-        GWorld.Instance.GetQueue("foods").AddResource(target);
         inventory.RemoveItem(target);
-        GWorld.Instance.GetWorld().ModifyState("FreeFood", 1);
+
         beliefs.RemoveState("isHungry");
         thisPerson.eat();
+
         thisFood.consume(1);
         return true;
     }

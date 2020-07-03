@@ -5,7 +5,9 @@ using UnityEngine.AI;
 
 public class Person : GAgent
 {
+    [SerializeField]
     private float stomach = 100.00f;
+
     private float hydration = 100.00f;
     private float energy = 100.00f;   //Used for sleep (0 = go to bed)
 
@@ -13,6 +15,9 @@ public class Person : GAgent
     public int MyMoney { get; set; } = 100;  //Does this need to be public or can it be private?
 
     GameObject myBed;
+
+    public Obj_Food myFridge;
+
     Person thisPerson;
     SpeechBubble speechBubble;
     Animator personAnimator;
@@ -49,6 +54,9 @@ public class Person : GAgent
         SubGoal s5 = new SubGoal("hasEnergy", 1, false);   //sleep goal
         goals.Add(s5, 10);
 
+        SubGoal s6 = new SubGoal("hasGroceries", 1, false);
+        goals.Add(s6, 5);
+
         InvokeRepeating("Entropy", 0, 1);   //Happens every 1 second
     }
 
@@ -77,6 +85,9 @@ public class Person : GAgent
 
         if (thisPerson.energy < 10.0f)
             beliefs.ModifyState("isTired", 0);
+
+        if (myFridge != null && myFridge.quantity <= 0)
+            beliefs.ModifyState("needGroceries", 0);
 
         //Start or stop walking animation when navagent is moving
         if (myNavMeshAgent.velocity.sqrMagnitude > 1.0f && !personAnimator.GetBool("isWalking"))

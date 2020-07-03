@@ -88,6 +88,29 @@ public abstract class GAction : MonoBehaviour
         return closest;
     }
 
+    public GameObject FindClosestFood()
+    {
+        GameObject[] gos;
+        gos = GameObject.FindGameObjectsWithTag("Food");
+        GameObject closest = null;
+        float distance = Mathf.Infinity;
+        Vector3 position = transform.position;
+        foreach (GameObject go in gos)
+        {
+            if (go.GetComponent<Obj_Food>().quantity > 0)
+            {
+                Vector3 diff = go.transform.position - position;
+                float curDistance = diff.sqrMagnitude;
+                if (curDistance < distance)
+                {
+                    closest = go;
+                    distance = curDistance;
+                }
+            }
+        }
+        return closest;
+    }
+
     public abstract bool PrePerform();
     public abstract bool PostPerform();
 }

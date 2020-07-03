@@ -21,7 +21,6 @@ public class Idle : GAction
 
     public override bool PostPerform()
     {
-        //GWorld.Instance.GetQueue("people").AddResource(this.gameObject);
         beliefs.RemoveState("isIdle");
         return true;
     }

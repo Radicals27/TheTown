@@ -7,14 +7,13 @@ public class Obj_Food : MonoBehaviour
     [SerializeField]
     public int quantity;
 
-    public GameObject foodObject;
-
-    public void consume(int amount)
+    public bool consume(int amount)
     {
-        if (quantity - amount <= 0)
-            Destroy(foodObject);
+        if (quantity == 0 || quantity - amount < 0)
+            return false;
         else
             quantity -= amount;
-        Debug.Log("Definitely eaten 1 Food");
+
+        return true;
     }
 }

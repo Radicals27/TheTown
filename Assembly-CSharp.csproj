@@ -72,6 +72,7 @@
     <Compile Include="Assets\GOAP\WorldStates.cs" />
     <Compile Include="Assets\Models\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Billboard.cs" />
+    <Compile Include="Assets\Scripts\BuyGroceries.cs" />
     <Compile Include="Assets\Scripts\CleanFloor.cs" />
     <Compile Include="Assets\Scripts\ConversationHandler.cs" />
     <Compile Include="Assets\Scripts\Doctor.cs" />
