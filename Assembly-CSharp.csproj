@@ -100,7 +100,9 @@
     <Compile Include="Assets\Scripts\Resource.cs" />
     <Compile Include="Assets\Scripts\ResourceData.cs" />
     <Compile Include="Assets\Scripts\Rest.cs" />
+    <Compile Include="Assets\Scripts\Sleep.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
+    <Compile Include="Assets\Scripts\Spawn_Food.cs" />
     <Compile Include="Assets\Scripts\SpeechBubble.cs" />
     <Compile Include="Assets\Scripts\UpdateWorld.cs" />
     <Compile Include="Assets\Scripts\UseToilet.cs" />

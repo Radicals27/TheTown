@@ -6,11 +6,13 @@ public class GoToBed : GAction
 {
     SpeechBubble speechBubble;
     Person thisPerson;
+    Animator personAnimator;
 
     private void Start()
     {
         thisPerson = GetComponent<Person>();
         speechBubble = GetComponent<SpeechBubble>();
+        personAnimator = GetComponent<Animator>();
     }
 
     public override bool PrePerform()
@@ -25,8 +27,6 @@ public class GoToBed : GAction
 
     public override bool PostPerform()
     {
-        beliefs.RemoveState("isTired");
-        thisPerson.sleep();
         return true;
     }
 }

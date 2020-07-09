@@ -7,6 +7,7 @@ public class BuyGroceries : GAction
     SpeechBubble speechBubble;
     Person thisPerson;
     Obj_Food targetFridge;
+    Spawn_Food foodSpawner;
 
     void Start()
     {
@@ -18,7 +19,6 @@ public class BuyGroceries : GAction
     public override bool PrePerform()
     {
         speechBubble.Speak("We need groceries...");
-
         return true;
 
     }
@@ -26,7 +26,8 @@ public class BuyGroceries : GAction
     public override bool PostPerform()
     {
         beliefs.RemoveState("needGroceries");
-        targetFridge.quantity = 10;
+        foodSpawner.SpawnFood(thisPerson);
+        //targetFridge.quantity = 10;
         return true;
     }
 }
